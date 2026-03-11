@@ -34,6 +34,7 @@ Battery Charge Controller: A comparator and relay automatically disconnect the b
 Power Supply Unit: A LM7812 Voltage Regulator provides a stable 12V supply to the comparator circuits for reliable operation.
 
 Circuit diagram
+
 <img width="801" height="744" alt="image" src="https://github.com/user-attachments/assets/11f1c3d2-ec8f-4f92-8515-5510caa49e75" />
 
 Expected Output
@@ -55,3 +56,7 @@ Future Improvements
 2. Add temperature sensing and overcurrent protection
 3. Improve relay switching stability
 4. Implement a microcontroller-based or MPPT-based controller for better efficiency
+
+
+![WhatsApp Image 2026-03-11 at 23 01 28](https://github.com/user-attachments/assets/35a3deba-0d9f-4b15-a1ea-a2412468d4e7)
+
