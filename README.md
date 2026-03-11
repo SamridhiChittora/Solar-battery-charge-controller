@@ -35,3 +35,23 @@ Power Supply Unit: A LM7812 Voltage Regulator provides a stable 12V supply to th
 
 Circuit diagram
 <img width="801" height="744" alt="image" src="https://github.com/user-attachments/assets/11f1c3d2-ec8f-4f92-8515-5510caa49e75" />
+
+Expected Output
+
+After connecting the solar panel and battery to the charge controller, the power LED and under-charging LED should turn ON, indicating that the battery is being charged. Once the battery reaches the optimum charge level, the optimum charge LED should turn ON and the under-charging LED should turn OFF, showing that charging has stopped and the battery is fully charged.
+
+
+Experimental Result
+
+During testing, the circuit demonstrated partial functionality. The charging indicator operated correctly, showing that the battery was receiving power from the solar panel. However, the full-charge indication and automatic cut-off did not function consistently, likely due to component tolerances, calibration issues in the comparator stage, or relay switching limitations.
+
+Conclusion
+
+This project demonstrates the design of a solar battery charge controller that regulates power from a solar panel to safely charge a battery. The system uses discrete components to monitor battery voltage and control the charging process. Although the circuit showed partial functionality during testing, it provided valuable insights into analog circuit design, voltage regulation, and battery management in solar systems.
+
+Future Improvements
+
+1. Calibrate the comparator thresholds for accurate voltage detection
+2. Add temperature sensing and overcurrent protection
+3. Improve relay switching stability
+4. Implement a microcontroller-based or MPPT-based controller for better efficiency
